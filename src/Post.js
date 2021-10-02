@@ -2,7 +2,8 @@ import React from 'react'
 import { FiBookmark, FiMoreHorizontal, FiNavigation, FiMessageCircle, FiHeart } from "react-icons/fi";
 
 const Post = ({ post }) => {
-    const urlImage = `https://source.unsplash.com/random/200x200?sig=${post.id}`;
+
+    const urlImage = `https://picsum.photos/id/${post.id}/200`;
     return (
 
         <a className="rounded  shadow-lg mx-3  my-3 cursor-pointer" style={{ backgroundColor: '#FFF' }} >
